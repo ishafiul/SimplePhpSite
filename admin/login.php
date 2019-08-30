@@ -39,7 +39,7 @@ if(isset($_SESSION["loggedin"])){
           <?php
 
           $var = $_SERVER['DOCUMENT_ROOT'];
-          $path = $var . '/b';
+          $path = $var . '/SimplePhpSite';
           include $path.'/includes/db/db.php';
           if(isset($_POST['login']))
           {

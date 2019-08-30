@@ -1,7 +1,7 @@
 
 <?php
 $var = $_SERVER['DOCUMENT_ROOT'];
-$path = $var.'/b';
+$path = $var.'/SimplePhpSite';
 include $path.'/includes/db/db.php';
 
 

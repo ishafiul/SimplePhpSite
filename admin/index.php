@@ -1,6 +1,6 @@
 <?php
 $var = $_SERVER['DOCUMENT_ROOT'];
-$path = $var.'/b';
+$path = $var.'/SimplePhpSite';
 include $path.'/admin/include/head.php';
 $name = 'SELECT * FROM b_companyname';
 $result = $con->query($name);

@@ -1,7 +1,5 @@
 <?php
-$var = $_SERVER['DOCUMENT_ROOT'];
-$path = $var.'/b';
-include $path.'/admin/include/head.php';
+include 'include/head.php';
 $date = date("Y-m-d");
 
 
@@ -127,6 +125,7 @@ $date = date("Y-m-d");
       </div>
     </div>
 </div>
+
 <?php
-include $path.'/admin/include/footer.php';
+include 'include/footer.php';
 ?>

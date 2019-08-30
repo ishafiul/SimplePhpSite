@@ -1,7 +1,5 @@
 <?php
-$var = $_SERVER['DOCUMENT_ROOT'];
-$path = $var.'/b';
-include $path.'/admin/include/head.php';
+include 'include/head.php';
 ?>
     <div id="content-wrapper">
         <div class="container-fluid">
@@ -125,5 +123,5 @@ if (isset($_POST['sserv'])) {
 }
 ?>
 <?php
-include $path.'/admin/include/footer.php';
+include 'include/footer.php';
 ?>

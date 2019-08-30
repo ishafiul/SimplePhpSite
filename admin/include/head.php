@@ -77,7 +77,7 @@ $row = mysqli_fetch_assoc($a_data);
                 if (isset($_SESSION["loggedin"])) {
                     if(isset($_POST['logout'])){
                         session_destroy();
-                        header("location:index.php");
+                        header("location: login.php");
                     }
                 }
                 ?>

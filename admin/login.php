@@ -37,10 +37,7 @@ if(isset($_SESSION["loggedin"])){
     <div class="card card-login mx-auto mt-5">
       <div class="card-header">Login
           <?php
-
-          $var = $_SERVER['DOCUMENT_ROOT'];
-          $path = $var . '/SimplePhpSite';
-          include $path.'/includes/db/db.php';
+          include '../includes/db/db.php';
           if(isset($_POST['login']))
           {
               $usename = $_POST['username'];

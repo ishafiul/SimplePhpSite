@@ -1,10 +1,6 @@
 <?php
-$var = $_SERVER['DOCUMENT_ROOT'];
-$path = $var.'/b';
-include $path.'/includes/db/db.php';
-$var = $_SERVER['DOCUMENT_ROOT'];
-$path = $var.'/b';
-include $path.'/admin/include/head.php';
+
+include 'include/head.php';
 ?>
     <div id="content-wrapper">
     <div class="container-fluid">
@@ -96,6 +92,7 @@ include $path.'/admin/include/head.php';
         ?>
     </div>
     </div>
+
 <?php
-include $path.'/admin/include/footer.php';
+include 'include/footer.php';
 ?>

@@ -3,9 +3,7 @@ include 'lib/config.php';
 include 'lib/Database.php';
 $db = new Database();
 
-$var = $_SERVER['DOCUMENT_ROOT'];
-$path = $var.'/b';
-include $path.'/admin/include/head.php';
+include 'include/head.php';
 
 ?>
 <script>
@@ -131,8 +129,9 @@ include $path.'/admin/include/head.php';
     ?>
 </div>
 </div>
+
 <?php
-include $path.'/admin/include/footer.php';
+include 'include/footer.php';
 ?>
 
 

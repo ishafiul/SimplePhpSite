@@ -1,7 +1,6 @@
 <?php
-$var = $_SERVER['DOCUMENT_ROOT'];
-$path = $var.'/SimplePhpSite';
-include $path.'/admin/include/head.php';
+
+include 'include/head.php';
 $name = 'SELECT * FROM b_companyname';
 $result = $con->query($name);
 ?>
@@ -44,6 +43,7 @@ $result = $con->query($name);
 
     </div>
     </form>
+
 <?php
-include $path.'/admin/include/footer.php';
+include 'include/footer.php';
 ?>

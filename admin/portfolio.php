@@ -1,7 +1,5 @@
 <?php
-$var = $_SERVER['DOCUMENT_ROOT'];
-$path = $var.'/b';
-include $path.'/admin/include/head.php';
+include 'include/head.php';
 include 'functions/fun_portfillio.php';
 include 'lib/config.php';
 include 'lib/Database.php';
@@ -155,6 +153,7 @@ if (isset($_GET['del'])) {
     }
 }
 ?>
+
 <?php
-include $path.'/admin/include/footer.php';
+include 'include/footer.php';
 ?>

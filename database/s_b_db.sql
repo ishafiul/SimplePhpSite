@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 30, 2019 at 09:56 PM
+-- Generation Time: Aug 31, 2019 at 04:18 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.8
 
@@ -43,7 +43,7 @@ CREATE TABLE `b_about` (
 --
 
 INSERT INTO `b_about` (`id`, `img`, `details`, `project`, `satisfaction`, `rating`, `skills`) VALUES
-(1, '3adb228460.jpg', 'AAAAAAAAAAAAAAAAAAAAAAAA', 37, 1, 1, 1);
+(1, 'c8a532fd7c.png', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, nisi sed deleniti ex nostrum qui veritatis necessitatibus quod, ea reiciendis saepe est culpa! Dolor debitis, suscipit tenetur inventore, magnam est iure aliquam vel sint dolore libero architecto impedit accusamus eos dolorum autem voluptatem, assumenda commodi minus omnis quasi eum veniam?</p>\r\n                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nostrum deleniti consequuntur, soluta corporis similique.</p>', 37, 56, 96, 86);
 
 -- --------------------------------------------------------
 
@@ -121,8 +121,9 @@ CREATE TABLE `b_header` (
 --
 
 INSERT INTO `b_header` (`id`, `heading`, `subtitle`, `images`) VALUES
-(33, ' ffff', 'ffffff', '../image/f87662d431.jpg'),
-(36, ' AAAAAAAAAAAAAAAAAAAAA', 'AAAAAAAAAAAAAAAAAAA', '../image/ec6d35d5c3.png');
+(38, ' CREATIVE TEAM', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text.\r\n', '../image/3addf209fa.jpg'),
+(39, ' AWESOME AGENCY', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text.', '../image/7cc1166d13.jpg'),
+(40, ' POWERFUL COMPANY', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text.', '../image/75c0ed75dc.jpg');
 
 -- --------------------------------------------------------
 
@@ -186,10 +187,12 @@ CREATE TABLE `b_porfolio` (
 --
 
 INSERT INTO `b_porfolio` (`id`, `topimg_1`, `topimg_2`, `btmimg_1`, `btmimg_2`) VALUES
-(1, 'port-big1.jpg', 'port-big1.jpg', 'port-big2.jpg', 'port-big2.jpg'),
-(17, 'port-big3.jpg', 'port-big3.jpg', 'port-big4.jpg', 'port-big4.jpg'),
-(18, 'port-big1.jpg', 'port-big1.jpg', 'port-big2.jpg', 'port-big2.jpg'),
-(19, 'port-big3.jpg', 'port-big3.jpg', 'port-big4.jpg', 'port-big4.jpg');
+(39, '8af6c9fb8f.jpg', 'thumb1_8af6c9fb8f.jpg', '8af6c9fb8f.jpg', 'thumb2_8af6c9fb8f.jpg'),
+(40, 'cd34b6a3ad.jpg', 'thumb1_cd34b6a3ad.jpg', 'cd34b6a3ad.jpg', 'thumb2_cd34b6a3ad.jpg'),
+(41, '4fbd78c5c3.jpg', 'thumb1_4fbd78c5c3.jpg', '4fbd78c5c3.jpg', 'thumb2_4fbd78c5c3.jpg'),
+(42, 'cb46974841.jpg', 'thumb1_cb46974841.jpg', 'cb46974841.jpg', 'thumb2_cb46974841.jpg'),
+(43, '3ecfde0116.png', 'thumb1_3ecfde0116.png', '3ecfde0116.png', 'thumb2_3ecfde0116.png'),
+(44, '97e940d798.png', 'thumb1_97e940d798.png', '97e940d798.png', 'thumb2_97e940d798.png');
 
 -- --------------------------------------------------------
 
@@ -258,7 +261,11 @@ CREATE TABLE `b_team` (
 --
 
 INSERT INTO `b_team` (`id`, `nm`, `designation`, `fb`, `twitter`, `linkedin`, `img`) VALUES
-(16, 'Shakib', 'Web Designer', 'Shakib', 'Shakib', 'Shakib', 'team1.jpg');
+(17, 'Shakib', 'Web Designer', 'Shakib', 'Shakib', 'Shakib', '18a8dd8bd4.jpg'),
+(18, 'Tahsan', 'Web Developer', 'Tahsan', 'Tahsan', 'Tahsan', '36a4617655.jpg'),
+(19, 'Fatima', 'Digital Marketer', 'Fatima', 'Fatima', 'Fatima', 'ee82287ebf.jpg'),
+(21, 'Alex', 'App Developer', 'Alex', 'Alex', 'Alex', '1f9abc4012.jpg'),
+(22, 'hrlll', 'fdgdfg', 'fgdf', 'fgfg', 'dfgdfg', '2b3211cf63.jpg');
 
 -- --------------------------------------------------------
 
@@ -417,7 +424,7 @@ ALTER TABLE `b_count`
 -- AUTO_INCREMENT for table `b_header`
 --
 ALTER TABLE `b_header`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- AUTO_INCREMENT for table `b_navigator`
@@ -435,7 +442,7 @@ ALTER TABLE `b_our_serv`
 -- AUTO_INCREMENT for table `b_porfolio`
 --
 ALTER TABLE `b_porfolio`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
 --
 -- AUTO_INCREMENT for table `b_price`
@@ -453,7 +460,7 @@ ALTER TABLE `b_serv`
 -- AUTO_INCREMENT for table `b_team`
 --
 ALTER TABLE `b_team`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `b_testimonial`

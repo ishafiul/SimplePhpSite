@@ -7,12 +7,12 @@
             </div>
         </div>
         <div class="row apt">
-           <?php 
+           <?php
             $sql = "SELECT * FROM b_team";
             $a_data = mysqli_query($con,$sql);
             while($row = mysqli_fetch_assoc($a_data)){
                 $team ='<div class="col-lg-3 col-sm-6">
-                            <div class="team-item">
+                            <div class="team-item" style="margin-bottom: 30px">
                                 <div class="team-overlay text-center">
                                     <div class="overlay-text">
                                         <h3>'. $row["nm"] .'</h3>
@@ -31,5 +31,6 @@
             }
             ?>
         </div>
+
     </div>
 </section>

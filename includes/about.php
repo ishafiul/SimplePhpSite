@@ -11,11 +11,8 @@
                 <h3>KNOW ABOUT OUR COMPANY</h3>
             </div>
         </div>
-<?php 
-$var = $_SERVER['DOCUMENT_ROOT'];
-$path = $var.'/b';
-
-include $path.'/includes/db/db.php';
+<?php
+include 'includes/db/db.php';
 $sql = "SELECT * FROM b_about";
 $a_data = mysqli_query($con,$sql);
 

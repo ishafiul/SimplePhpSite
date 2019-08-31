@@ -38,7 +38,7 @@ include 'include/head.php';
                        http://www.linkedin.com/in/<input id="li" type="text" name="li" required class="form-control">
                        <br>
 
-                       <button name="team" class="btn btn-dark">Add Portfolio</button>
+                       <button name="team" class="btn btn-dark">Add Member</button>
                        <br>
                        <br>
 

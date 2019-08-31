@@ -65,11 +65,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/team.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
               <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+              <folding>
+                <element signature="e#3261#3267#1#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,15 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="893">
               <caret line="158" column="2" selection-start-line="158" selection-start-column="2" selection-end-line="158" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/include/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -149,7 +152,6 @@
         <option value="$PROJECT_DIR$/admin/lib/database.php" />
         <option value="$PROJECT_DIR$/includes/contact.php" />
         <option value="$PROJECT_DIR$/includes/testimonial.php" />
-        <option value="$PROJECT_DIR$/includes/footer.php" />
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/admin/testimonial.php" />
         <option value="$PROJECT_DIR$/admin/service.php" />
@@ -166,6 +168,7 @@
         <option value="$PROJECT_DIR$/includes/about.php" />
         <option value="$PROJECT_DIR$/admin/team.php" />
         <option value="$PROJECT_DIR$/includes/team.php" />
+        <option value="$PROJECT_DIR$/includes/footer.php" />
       </list>
     </option>
   </component>
@@ -247,12 +250,12 @@
       <workItem from="1567098069013" duration="17273000" />
       <workItem from="1567184505750" duration="7271000" />
       <workItem from="1567195761355" duration="1844000" />
-      <workItem from="1567259097034" duration="1900000" />
+      <workItem from="1567259097034" duration="2268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145509000" />
+    <option name="totallyTimeSpent" value="145877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -400,13 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="32" column="92" lean-forward="true" selection-start-line="32" selection-start-column="92" selection-end-line="32" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -569,6 +565,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+          <folding>
+            <element signature="e#3261#3267#1#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -68,7 +68,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="fop-btm text-center">
-                    <h2><a href="#" target="_blank">Templates Hub</a></h2>
+                    <h2><a href="#" target="_blank">&copy; <?php echo date("Y"); ?> All rights reserved to</a></h2>
                 </div>
             </div>
         </div>
